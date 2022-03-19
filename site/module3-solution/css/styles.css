@@ -1,0 +1,61 @@
+body{
+    font-size: 16px;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    border:0;
+    margin: 0;
+}
+
+/*Header*/
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+} 
+
+#navbar-brand {
+    padding-top: 25px;
+}
+
+.BrandName.navbar-brand{
+    position: absolute;
+    top: 20;
+    left: 15;
+    color: black;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.BoxContent{
+    background-color: gray;
+    margin: 25px;
+    padding: 15px;
+    width: 96%;
+}
+
+#nav-list a{
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+#nav-list a:hover{
+background: lightgray;
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
